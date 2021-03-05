@@ -7,6 +7,10 @@ CVPR 2021
 Authors:  Johannes C. Paetzold and Suprosanna Shit
 
 
+![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+
+
+
 ## Table of contents
 
 * [General info](#general-info)
@@ -15,4 +19,8 @@ Authors:  Johannes C. Paetzold and Suprosanna Shit
 * [Dependencies](#depend)
 
 ## General info
+
+## clDice Metric
+
+## clDice as a Loss function
 
