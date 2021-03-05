@@ -28,5 +28,5 @@ Accurate segmentation of tubular, network-like structures, such as vessels, neur
 
 To use clDice as a loss function we introduce a differentiable soft-skeletonization where an iterative min- and max-pooling is applied as a proxy for morphological erosion and dilation.
 
-![plot](https://github.com/jocpae/clDice/blob/main/skeletonization.png=250x)
+![plot](https://github.com/jocpae/clDice/blob/main/skeletonization.png =250x)
 
