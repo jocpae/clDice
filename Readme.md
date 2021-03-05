@@ -1,10 +1,10 @@
 ## README 
 
-"[clDice - a Novel Topology-Preserving Loss Function for Tubular Structure Segmentation](https://arxiv.org/abs/2003.07311)"
+[clDice - a Novel Topology-Preserving Loss Function for Tubular Structure Segmentation](https://arxiv.org/abs/2003.07311)
 
 CVPR 2021
 
-Authors:  Johannes C. Paetzold and Suprosanna Shit
+Authors: Suprosanna Shit and Johannes C. Paetzold 
 
 
 
@@ -25,7 +25,9 @@ Authors:  Johannes C. Paetzold and Suprosanna Shit
 
 ## Skeletonization
 
+To use clDice as a loss function we introduce a differentiable soft-skeletonization where an iterative min- and max-pooling is applied as a proxy for morphological erosion and dilation.
 
-![plot](https://github.com/jocpae/clDice/blob/main/skeletonization.png)width="250"
+
+![plot](https://github.com/jocpae/clDice/blob/main/skeletonization.png)
 
 
