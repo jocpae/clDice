@@ -26,6 +26,6 @@ Authors:  Johannes C. Paetzold and Suprosanna Shit
 ## Skeletonization
 
 
-![plot](https://github.com/jocpae/cldice/skeletonization.png)
+![plot](https://github.com/jocpae/cldice/main/skeletonization.png)
 
 
