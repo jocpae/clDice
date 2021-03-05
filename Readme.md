@@ -7,20 +7,25 @@ CVPR 2021
 Authors:  Johannes C. Paetzold and Suprosanna Shit
 
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
 
 
 
 ## Table of contents
 
-* [General info](#general-info)
+
 * [clDice Metric](#metric)
 * [clDice as a Loss function](#loss)
 * [Dependencies](#depend)
+* [Skeletonization](#skeleton)
 
-## General info
 
 ## clDice Metric
 
 ## clDice as a Loss function
+
+## Skeletonization
+
+
+![alt text](https://github.com/jocpae/cldice/skeletonization.png?raw=true)
+
 
