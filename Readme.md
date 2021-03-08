@@ -4,7 +4,7 @@
 
 CVPR 2021
 
-Authors: Suprosanna Shit and Johannes C. Paetzold et el.
+Authors: Suprosanna Shit and Johannes C. Paetzold et al.
 
 @article{shit2020cldice,
   title={clDice--a Topology-Preserving Loss Function for Tubular Structure Segmentation},
@@ -24,7 +24,8 @@ Accurate segmentation of tubular, network-like structures, such as vessels, neur
 * [clDice Metric](#metric)
 * [Soft Skeleton](#skeleton)
 * [clDice as a Loss function](#loss)
-* [Dependencies](#depend)
+<!---
+* [Dependencies](#depend)-->
 
 
 <!---
