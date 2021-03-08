@@ -17,14 +17,18 @@ Accurate segmentation of tubular, network-like structures, such as vessels, neur
 * [clDice Metric](#metric)
 * [clDice as a Loss function](#loss)
 * [Dependencies](#depend)
-* [Skeletonization](#skeleton)
+* [Soft Skeleton](#skeleton)
 
 
 ## clDice Metric
 
+In our publication we show how clDice can be used as a Metric to benchmark segmentation performance for tubular structures. The metric clDice is calculated using a "hard" skeleton using [skeletonize](https://scikit-image.org/docs/dev/auto_examples/edges/plot_skeleton.html) from the scikit-image library. Other potentially more sophisticated skeletonization techniques could be integrated in to the clDice metric as well.  
+
 ## clDice as a Loss function
 
-## Skeletonization
+To train neural networks with clDice we implemented a loss function. For stability reasons and to ensure a good volumetric segmentation we combine clDice with a regular Dice or binary cross entropy loss function. Moreover, we need to introduce a [Soft Skeleton](#skeleton) to make the skeletonization fully differentiable.
+
+## Soft Skeleton
 
 To use clDice as a loss function we introduce a differentiable soft-skeletonization where an iterative min- and max-pooling is applied as a proxy for morphological erosion and dilation.
 
