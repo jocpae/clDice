@@ -24,10 +24,10 @@ def clDice(v_p, v_l):
     Returns:
         [float]: [cldice metric]
     """
-    if len(v_p.shape)==4:
+    if len(v_p.shape)==2:
         tprec = cl_score(v_p,skeletonize(v_l))
         tsens = cl_score(v_l,skeletonize(v_p))
-    elif len(v_p.shape)==5:
+    elif len(v_p.shape)==3:
         tprec = cl_score(v_p,skeletonize_3d(v_l))
         tsens = cl_score(v_l,skeletonize_3d(v_p))
     return 2*tprec*tsens/(tprec+tsens)
