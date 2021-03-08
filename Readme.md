@@ -5,6 +5,7 @@
 CVPR 2021
 
 Authors: Suprosanna Shit and Johannes C. Paetzold et al.
+
 ```
 @article{shit2020cldice,
   title={clDice--a Topology-Preserving Loss Function for Tubular Structure Segmentation},
