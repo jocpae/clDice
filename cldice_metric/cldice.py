@@ -2,7 +2,7 @@ from skimage.morphology import skeletonize, skeletonize_3d
 import numpy as np
 
 def cl_score(v, s):
-    """[this function compute skeleton volume overlap]
+    """[this function computes the skeleton volume overlap]
 
     Args:
         v ([bool]): [image]
@@ -15,7 +15,7 @@ def cl_score(v, s):
 
 
 def clDice(v_p, v_l):
-    """[this function computes cldice metric]
+    """[this function computes the cldice metric]
 
     Args:
         v_p ([bool]): [predicted image]
