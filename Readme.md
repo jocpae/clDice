@@ -8,7 +8,7 @@ Authors: Suprosanna Shit and Johannes C. Paetzold et al.
 
 ```
 @article{shit2020cldice,
-  title={clDice--a Topology-Preserving Loss Function for Tubular Structure Segmentation},
+  title={clDice - a Topology-Preserving Loss Function for Tubular Structure Segmentation},
   author={Shit, Suprosanna and Paetzold, Johannes C and Sekuboyina, Anjany and Zhylka, Andrey and Ezhov, Ivan and Unger, Alexander and Pluim, Josien PW and Tetteh, Giles and Menze, Bjoern H},
   journal={arXiv preprint arXiv:2003.07311},
   year={2020}
