@@ -53,6 +53,6 @@ To train neural networks with _clDice_ we implemented a loss function. For stabi
 
 To use _clDice_ as a loss function we introduce a differentiable soft-skeletonization where an iterative min- and max-pooling is applied as a proxy for morphological erosion and dilation.
 
-<img src="https://github.com/jocpae/clDice/blob/main/skeletonization.png" alt="drawing" width="500"/>
+<img src="https://github.com/jocpae/clDice/blob/master/skeletonization.png" alt="drawing" width="500"/>
 
 
