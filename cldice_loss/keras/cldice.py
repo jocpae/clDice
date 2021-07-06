@@ -70,7 +70,6 @@ def soft_dice_cldice_loss(iters = 15, alpha=0.5):
         pres = (K.sum(tf.math.multiply(skel_pred, y_true)[:,1:,:,:,:])+smooth)/(K.sum(skel_pred[:,1:,:,:,:])+smooth)    
         rec = (K.sum(tf.math.multiply(skel_true, y_pred)[:,1:,:,:,:])+smooth)/(K.sum(skel_true[:,1:,:,:,:])+smooth)    
         cl_dice = 1.- 2.0*(pres*rec)/(pres+rec)
-        cl_dice = soft_dice(skel_true, skel_pred)
         dice = soft_dice(y_true, y_pred)
         return (1.0-alpha)*dice+alpha*cl_dice
     return loss
