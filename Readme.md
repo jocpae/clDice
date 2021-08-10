@@ -14,7 +14,6 @@ Authors: Suprosanna Shit and Johannes C. Paetzold et al.
   pages={16560--16569},
   year={2021}
 }
-
 ```
 
 ## Abstract 
