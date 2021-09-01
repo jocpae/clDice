@@ -1,6 +1,6 @@
 ## clDice - a Novel Topology-Preserving Loss Function for Tubular Structure Segmentation 
 
-[paper](https://arxiv.org/abs/2003.07311) | [poster]() | 
+[paper](https://arxiv.org/abs/2003.07311) | [poster](https://github.com/jocpae/clDice/blob/master/CVPR_2021_Poster.pdf) | 
 
 CVPR 2021
 
